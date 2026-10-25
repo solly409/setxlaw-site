@@ -156,7 +156,7 @@ footer a:hover { text-decoration: underline; }
 .whatsapp-float img { width: 34px; height: 34px; }
 
 /* Page content */
-main p { margin-bottom: 1.6rem; }
+.lead { font-size: 1.15rem; color: var(--muted); margin-bottom: 1.5rem; }
 main h1 { color: var(--navy); margin-bottom: 1rem; }
 main ul { margin: 0.75rem 0 1.25rem 1.5rem; }
 main li { margin-bottom: 0.4rem; }
