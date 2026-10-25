@@ -53,7 +53,7 @@ nav a:hover { color: var(--gold); }
   padding: 6.5rem 1rem 5.5rem;
 }
 .hero h1 { font-size: 2.75rem; font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.5px; }
-.hero p { font-size: 1.25rem; max-width: 680px; margin: 0 auto 2rem; opacity: 0.95; }
+.hero p { margin-bottom: 0.75rem; }
 .btn {
   display: inline-block;
   background: var(--gold);
@@ -156,7 +156,7 @@ footer a:hover { text-decoration: underline; }
 .whatsapp-float img { width: 34px; height: 34px; }
 
 /* Page content */
-main { padding: 4rem 0; }
+main p { margin-bottom: 1.6rem; }
 main h1 { color: var(--navy); margin-bottom: 1rem; }
 main ul { margin: 0.75rem 0 1.25rem 1.5rem; }
 main li { margin-bottom: 0.4rem; }
