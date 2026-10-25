@@ -109,11 +109,31 @@ nav a:hover { color: var(--gold); }
 
 /* Footer */
 footer {
-  background: #f1f3f5;
-  text-align: center;
-  padding: 1.75rem;
+  background: #0a2540;
+  color: #e8e8e8;
+  padding: 2.5rem 1rem 1.5rem;
   font-size: 0.9rem;
+  line-height: 1.6;
+}
+footer .container { max-width: 1120px; margin: 0 auto; }
+footer a { color: #d4a017; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.footer-disclaimer {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  padding-top: 1.25rem;
+  font-size: 0.8rem;
+  color: #ccc;
+}
+.fee-note {
+  font-size: 0.85rem;
   color: var(--muted);
+  margin-top: 0.5rem;
 }
 
 /* WhatsApp */
@@ -138,7 +158,8 @@ footer {
 /* Page content */
 main { padding: 4rem 0; }
 main h1 { color: var(--navy); margin-bottom: 1rem; }
-main h2 { color: var(--navy); margin: 1.75rem 0 0.75rem; }
+main ul { margin: 0.75rem 0 1.25rem 1.5rem; }
+main li { margin-bottom: 0.4rem; }
 
 @media (max-width: 640px) {
   .hero h1 { font-size: 2rem; }
